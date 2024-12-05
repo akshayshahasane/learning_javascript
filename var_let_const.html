@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- var let const -->
+     <script>
+        var fname = "Akshay";
+        var fname = "Sam";
+        var lname = "Shahasane";
+        document.write(fname);
+        document.write("<br>");
+     </script>
+     <script>
+        let f_name = "Akshay";
+        f_name = "Aky";
+
+        document.write(f_name);
+        document.write("<br>");
+     </script>
+     <script>
+        const pi = 3.14;
+        document.write(pi);
+     </script>
+     <script>
+        var name = "Rock"; //global scope
+        function hello()
+        {
+            var name = "Johnson";
+            document.write(name);
+        }
+        function hello2()
+        {
+            document.write(name);
+        }
+        hello();
+        hello2();
+        document.write(name);
+     </script>
+</body>
+</html>
