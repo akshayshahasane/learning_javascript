@@ -5,3 +5,7 @@ function myFunction() {
   {
       alert("Akshay");
   }
+  
+  function hello(){
+    console.logs("Hello world!");
+  }

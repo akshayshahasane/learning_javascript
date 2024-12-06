@@ -19,8 +19,82 @@
                 sum = sum + array[a];
             }
             document.write("</ul>");
-            document.write("Total of sum" + sum);
+            document.write("Total of sum" + sum + "<br>");
+        
     </script>
-    <script></script>
+    <script>
+        var a = ["Aky",28, "male", "Pune", "Software engineer"];
+        document.write(a + "<br>");
+        a[2];
+        document.write(a + "<br>");
+        delete a[1];
+        document.write(a + "<br>");
+    </script>
+
+<script>
+    var a = ["Aky","Good", "Male", "Pune", "Software", "Engineer"];
+    document.write(a + "<br>");
+    a.sort();
+    document.write(a + "<br>");
+    a.reverse();
+    document.write(a + "<br>" + "<br>");
+</script>
+<script>
+    var a = ["Aky","Good", "Male", "Pune", "Software", "Engineer"];
+    document.write(a + "<br>");
+    a.pop();
+    a.pop();
+    a.pop();
+    document.write(a + "<br>");
+    a.push("Sam");
+    a.push("Som");
+    a.push("Sim");
+    document.write(a + "<br>");
+</script>
+<script>
+    var a = ["Aky","Good", "Male", "Pune", "Software", "Engineer"];
+    document.write(a + "<br>");
+    var b =  a.slice(2,3);
+     document.write(b + "<br>" + "<br>" + "<hr>");
+</script>
+<script>
+    var a = ["Aky","Good", "Male", "Pune", "Software", "Engineer"];
+    var b = ["Akki","Smart", "Great", "Speed"];
+    var c = a.concat(b);
+    document.write(c + "<br>");
+    var d = c.join("/");
+    document.write(d);
+</script>
+<script>
+    var a = ["Aky12","Good1", "Male2", "Pune3", "Software4", "Engineer5"];
+    document.write(a + "<br>");
+    a.splice(2,2,"Raman","Sam");
+     document.write(a+ "<br>");
+</script>
+<script>
+    var a = Math.round(12.45); //round the value
+    document.write("Round value" + a + "<br>");
+
+    var b = Math.trunc(10.45); //round deciamal value
+    document.write("Round decimal value" + b + "<br>");
+
+    var c = Math.ceil(11.45); //neraest upper value
+    document.write("nearest upper value" + c + "<br>");
+
+    var d = Math.floor(10.45); //nereast down value
+    document.write("nearest down value" + d + "<br>");
+
+    var e = Math.max(10,23,6,89,45,4); //max value
+    document.write("max value" + e + "<br>");
+
+    var f = Math.min(10,23,6,89,45,4); //max value
+    document.write("min value" + f + "<br>");
+
+    var f = Math.pow(10,23); //power display
+    document.write("power value" + f + "<br>");
+
+    
+
+</script>
 </body>
 </html>
